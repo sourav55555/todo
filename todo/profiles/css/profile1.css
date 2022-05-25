@@ -1,0 +1,97 @@
+
+.container{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.container .row{
+    background: rgb(7,204,131);
+    background: linear-gradient(61deg, rgba(7,204,131,1) 0%, rgba(0,212,255,1) 100%); 
+    width: 38rem;
+    height: auto;
+    padding-left: 4rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 11px rgb(65, 52, 52);
+}
+.p-input{
+    display: flex;
+    font-size: 1.1rem;
+}
+.p-input input{
+    margin-left: 1.5rem;
+    width: 12rem;
+    height: 2.45rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    margin-top: .4rem;
+    padding-left: .5rem;
+    box-shadow: 4px 4px 11px rgb(79, 71, 71);
+}
+.p-inputb{
+    font-size: 1.1rem;
+}
+.p-inputb textarea{
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    margin-top: .4rem;
+    padding-left: .65rem;
+    padding-top: .65rem;
+    font-size: 1rem;
+    box-shadow: 4px 4px 11px rgb(79, 71, 71);
+}
+.submit{
+    display: block;
+
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgba(44, 44, 223,.8);
+    box-shadow: 3px 5px 10px rgba(17, 17, 18, 0.8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 2rem;
+    margin-left: .5rem;
+}
+.blog-div{
+    display: flex;
+    float: right;
+}
+.name{
+    text-transform: capitalize;
+  }
+  .blog-div{
+    display: flex;
+    margin-right: 2rem;
+    margin-top: .3rem;
+}
+  .profile-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.6rem;
+  }
+  .blog-div a{
+    align-items: center;
+    margin: auto;
+  }
+  .blog-div p{
+    font-size: 1.1rem;
+  }
+  .blog-div .blog{
+    padding: 11px 16px;
+    margin-left: 14px;
+    border-radius: 1.2rem;
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 6px rgb(65, 52, 52);
+    background-color: rgba(170, 20, 227 ,.7);
+    color: white;
+    cursor: pointer;
+  }
